@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    background-image:url("../image/light-blue-background-1.jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+#header-box{
+    background-color: #37474f;
+}
+#detail-box-outer{
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#detail-box-outer div{
+    width: 100%;
+    display: inline-block;
+    border-radius: 100px 0 100px 0;
+    overflow: hidden;
+}
+div#header-box h1{
+    color: #f57f17;
+    margin: 0;
+    padding-top: 20px;
+    text-wrap: normal;
+    text-align: center;
+    padding-bottom: 17px;
+}
+#center-bar{
+    background-color: #546e7a;
+    position: relative;
+}
+div#center-bar h2{
+    color: #eceff1;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    margin: auto;
+
+}
+#logo-area{
+    text-align: center;
+    margin-top: 0;
+}
+div#logo-area hr{
+    height: 2px;
+    background-color: #b0bec5;
+}
+.raw{
+    color: #eceff1;
+    text-shadow: 1px 1px 3px black;
+}
+.raw-x{
+    background-color: #00695c;
+}
+.raw-y{
+    background-color: #00897b;
+}
+#assignment-area{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.assignment-list{
+    padding: 0;
+}
+.assignment-list li{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    padding: 15px;
+    box-shadow: black 1px 1px 5px;
+    width: 80%;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    position: relative;
+    height: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.assignment-list li:hover{
+    width: calc(100% - 40px);
+    transition: 0.3s ease;
+    background-color: #e0f2f1;
+}
+.assignment-list li aside,span{
+    display: inline-block;
+}
+.assignment-list li aside{
+    background-color: #00695c;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 100%;
+    width: 50px;
+    height: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+}
+.assignment-list li span{
+    padding-left: 50px;
+}
+.sub-title{
+    text-align: center;
+    color: #37474f;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.assignment-list a{
+    color: #00695c;
+    font-weight: bold;
+}
