@@ -7,6 +7,9 @@ This is my web Profile with 03 Assignments.
     2. Point Of Sale System - Responsive
     
     3. Point Of Sale System - Bootstrap
+       
+    
+![GitHub Logo](https://raw.githubusercontent.com/ureshaL/My-Web-/master/image/Capture.PNG)
     
     
     
